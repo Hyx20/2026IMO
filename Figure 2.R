@@ -128,7 +128,7 @@ for (v in env_factors) {
 }
 
 ####model==
-covars <- c("citytype","agegroup","gender","educagroup",
+covars <- c("agegroup","gender","educagroup",
             "marrygroup","occupation_g","income1","fuelg",
             "smoke","drinkgroup3","total_ng","crop","vegetable","fruit","meat","season")
 res <- data.frame()
@@ -407,5 +407,6 @@ F2.4 <- ggplot(
 F2.4
 
 ggsave("Figure 2/Figure 2.4.pdf", F2.4, width = 12, height = 6)
+
 
 
