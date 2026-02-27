@@ -228,7 +228,7 @@ F2.2
 # ggsave("Figure 2/Figure 2.2.pdf", F2.2, width = 6, height = 12)
 
 ####F2.3 环境因素与代谢综合征的关联====
-covars <- c("citytype","agegroup","gender","educagroup","nationg",
+covars <- c("agegroup","gender","educagroup","nationg",
             "marrygroup","occupation_g","income1","fuelg",
             "smoke","drinkgroup3","total_ng","crop","vegetable","fruit","meat","season")
 
